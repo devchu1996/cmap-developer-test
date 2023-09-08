@@ -19,5 +19,6 @@ namespace Timesheets.Infrastructure
         }
 
         public DbSet<Timesheet> Timesheets { get; set; }
+        public DbSet<TimesheetEntry> TimesheetEntries { get; set; }
     }
 }

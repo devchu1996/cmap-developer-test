@@ -6,7 +6,10 @@ namespace Timesheets.Models
     {
         [Key]
         public int Id { get; set; }
+
         public TimesheetEntry TimesheetEntry { get; set; }
+
         public string TotalHours { get; set; }
+
     }
 }
